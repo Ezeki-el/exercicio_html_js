@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Numérico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-<h1>Formulário Numérico</h1>
-<form id="numeric-form">
-    <label for="campoA">Campo A:</label>
-    <input type="number" id="campoA" name="campoA" required><br><br>
+    <div class="container">
+        <h1>Formulário Numérico</h1>
+        <form id="numeric-form">
+        <label for="campoA">Campo A:</label>
+        <input type="number" id="campoA" name="campoA" required><br><br>
     
-    <label for="campoB">Campo B:</label>
-    <input type="number" id="campoB" name="campoB" required><br><br>
+        <label for="campoB">Campo B:</label>
+        <input type="number" id="campoB" name="campoB" required><br><br>
     
-    <button type="submit">Submeter</button>
-</form>
-
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
 <p id="validation-message"></p>
 
 <script>
